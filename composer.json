@@ -1,5 +1,5 @@
 {
-    "name": "groupm7/laravel-gitlab-connector",
+    "name": "groupm7/installer",
     "description": "Call Gitlab API ",
     "keywords": ["laravel", "gitlab", "api", "connector"],
     "license": "MIT",
@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "guzzlehttp/guzzle": "6.2.0"
+        "guzzlehttp/guzzle": "6.2.0",
+        "vinkla/gitlab": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
