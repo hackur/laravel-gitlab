@@ -4,16 +4,12 @@ stages:
 
 job_build_php5.6_centos7:
   image: centos:7
-  services:
-    - php:5.6
   stage: build
   script:
     - php --version
     
 job_build_php5.6_centos6:
   image: centos:6
-  services:
-    - php:5.6
   stage: build
   script:
     - php --version
@@ -21,15 +17,11 @@ job_build_php5.6_centos6:
 job_build_php7_centos7:
   image: centos:7
   stage: build
-  services:
-    - php:7
   script:
     - php --version
     
 job_build_php7_centos6:
   image: centos:6
-  services:
-    - php:7
   stage: build
   script:
     - php --version
