@@ -6,27 +6,8 @@ job_build_php5.6_centos7:
   image: centos:7
   stage: build
   script:
-    - yum update
-    - yum install php
-    - php --version
-
-
-job_build_php5.6_centos6:
-  image: centos:6
-  stage: build
-  script:
-    - php --version
-
-job_build_php7_centos7:
-  image: centos:7
-  stage: build
-  script:
-    - php --version
-    
-job_build_php7_centos6:
-  image: centos:6
-  stage: build
-  script:
+    - yum update -y
+    - yum install -y php
     - php --version
 
 job_test:
