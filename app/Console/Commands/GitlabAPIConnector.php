@@ -63,7 +63,8 @@ class GitlabAPIConnector extends Command
             }
             
             // Set the new token
-            Config::set('gitlab.token', $token);
+            //TODO add the ability to update API tokens from the command line
+            $this->error("This feature is not yet supported. Try updating the .env file manually");
             
         }
     }
