@@ -1,7 +1,7 @@
 image: php:5.6
 
 services:
-  - postgres
+  - composer/composer
 
 before_script:
 - bash ci/docker_install.sh > /dev/null
