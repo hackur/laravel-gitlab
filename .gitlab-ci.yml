@@ -6,8 +6,11 @@ job_build_php5.6_centos7:
   image: centos:7
   stage: build
   script:
+    - yum update --yes
+    - yum install php --yes
     - php --version
-    
+
+/*
 job_build_php5.6_centos6:
   image: centos:6
   stage: build
@@ -30,6 +33,7 @@ job_test:
   stage: test
   script:
     - phpunit
+*/
 
 variables:
   GIT_SSL_NO_VERIFY: "true"
