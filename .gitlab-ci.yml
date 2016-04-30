@@ -1,19 +1,31 @@
-before_script:
-  - bash ci/docker_install.sh > /dev/null
 
 stages:
   - build
   - test
 
 job_build_php5.6_centos7:
-  image: centos7
+  image: centos:7
   stage: build
   script:
     - composer self-update
     - composer install
     
 job_build_php5.6_centos6:
-  image: centos6
+  image: centos:6
+  stage: build
+  script:
+    - composer self-update
+    - composer install
+
+job_build_php7_centos7:
+  image: centos:7
+  stage: build
+  script:
+    - composer self-update
+    - composer install
+    
+job_build_php7_centos6:
+  image: centos:6
   stage: build
   script:
     - composer self-update
