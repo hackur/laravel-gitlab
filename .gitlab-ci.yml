@@ -7,3 +7,6 @@ job1:
   stage: build
   script:
     - phpunit
+
+variables:
+  GIT_SSL_NO_VERIFY: "true"
