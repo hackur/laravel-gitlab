@@ -9,7 +9,7 @@ job1:
   image: php:5.6
   stage: build
   script:
-    - phpunit
+    - phpunit --configuration phpunit.xml
 
 variables:
   GIT_SSL_NO_VERIFY: "true"
