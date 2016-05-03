@@ -52,5 +52,5 @@
     "config": {
         "preferred-install": "dist"
     },
-    "non-feature-branches": ["latest-.*","*-dev","master"]
+    "non-feature-branches": [".*dev.*","bug.*","hotfix.*"]
 }
