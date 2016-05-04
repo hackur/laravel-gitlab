@@ -1,5 +1,5 @@
 {
-    "name": "groupm7/installer",
+    "name": "groupm7/laravel-gitlab",
     "description": "Access any Gitlab API in Laravel",
     "keywords": ["laravel", "gitlab", "git", "api", "connector"],
     "license": "MIT",
