@@ -1,11 +1,6 @@
 /vendor
 /node_modules
-/public/storage
 /.idea
-/.PhpStorm*
-Homestead.yaml
-Homestead.json
-.env
 
 composer.lock
 composer.phar
