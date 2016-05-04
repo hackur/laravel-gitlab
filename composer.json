@@ -19,10 +19,5 @@
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
-    "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ]
-    },
     "non-feature-branches": [".*dev.*",".*fix.*"]
 }
