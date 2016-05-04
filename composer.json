@@ -1,5 +1,5 @@
 {
-    "name": "groupm7/installer",
+    "name": "groupm7/laravel-gitlab",
     "description": "Access any Gitlab API in Laravel",
     "keywords": ["laravel", "gitlab", "git", "api", "connector"],
     "license": "MIT",
@@ -18,11 +18,6 @@
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
-    },
-    "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ]
     },
     "non-feature-branches": [".*dev.*",".*fix.*"]
 }
